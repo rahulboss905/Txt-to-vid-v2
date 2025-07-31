@@ -4,7 +4,7 @@ services:
     plan: free
     env: docker
     dockerfilePath: Dockerfile
-    repo: https://github.com/cyberseller999/Saini-txt-direct
+    repo: https://github.com/nikhilsainiop/Saini-txt-direct
     branch: main
     autoDeploy: false
     envVars:
@@ -17,8 +17,6 @@ services:
       - key: OWNER
         sync: false
       - key: CREDIT
-        sync: false
-      - key: LOG_CHANNEL
         sync: false
       #- key: WEBHOOK
         #sync: false
